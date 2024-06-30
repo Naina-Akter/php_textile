@@ -1,0 +1,8 @@
+.user-panel img {
+    height: 50px !important;
+    width: auto !important;
+  }
+  .user-panel {
+    position: relative;
+    align-items: center;
+  }

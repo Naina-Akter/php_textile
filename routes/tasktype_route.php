@@ -1,0 +1,13 @@
+<?php
+if($page=="create-tasktype"){
+	$found=include("views/pages/ui/tasktype/create_tasktype.php");
+}elseif($page=="edit-tasktype"){
+	$found=include("views/pages/ui/tasktype/edit_tasktype.php");
+}elseif($page=="task_types"){
+	$found=include("views/pages/ui/tasktype/manage_tasktype.php");
+}elseif($page=="details-tasktype"){
+	$found=include("views/pages/ui/tasktype/details_tasktype.php");
+}elseif($page=="view-tasktype"){
+	$found=include("views/pages/ui/tasktype/view_tasktype.php");
+}
+?>

@@ -1,0 +1,13 @@
+<?php
+if($page=="create-productcategory"){
+	$found=include("views/pages/ui/productcategory/create_productcategory.php");
+}elseif($page=="edit-productcategory"){
+	$found=include("views/pages/ui/productcategory/edit_productcategory.php");
+}elseif($page=="product_categories"){
+	$found=include("views/pages/ui/productcategory/manage_productcategory.php");
+}elseif($page=="details-productcategory"){
+	$found=include("views/pages/ui/productcategory/details_productcategory.php");
+}elseif($page=="view-productcategory"){
+	$found=include("views/pages/ui/productcategory/view_productcategory.php");
+}
+?>

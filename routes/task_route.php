@@ -1,0 +1,13 @@
+<?php
+if($page=="create-task"){
+	$found=include("views/pages/ui/task/create_task.php");
+}elseif($page=="edit-task"){
+	$found=include("views/pages/ui/task/edit_task.php");
+}elseif($page=="Tasks"){
+	$found=include("views/pages/ui/task/manage_task.php");
+}elseif($page=="details-task"){
+	$found=include("views/pages/ui/task/details_task.php");
+}elseif($page=="view-task"){
+	$found=include("views/pages/ui/task/view_task.php");
+}
+?>

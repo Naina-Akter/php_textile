@@ -1,0 +1,13 @@
+<?php
+if($page=="create-delivery"){
+	$found=include("views/pages/ui/delivery/create_delivery.php");
+}elseif($page=="edit-delivery"){
+	$found=include("views/pages/ui/delivery/edit_delivery.php");
+}elseif($page=="delivery"){
+	$found=include("views/pages/ui/delivery/manage_delivery.php");
+}elseif($page=="details-delivery"){
+	$found=include("views/pages/ui/delivery/details_delivery.php");
+}elseif($page=="view-delivery"){
+	$found=include("views/pages/ui/delivery/view_delivery.php");
+}
+?>

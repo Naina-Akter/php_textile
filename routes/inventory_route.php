@@ -1,0 +1,13 @@
+<?php
+if($page=="create-inventory"){
+	$found=include("views/pages/ui/inventory/create_inventory.php");
+}elseif($page=="edit-inventory"){
+	$found=include("views/pages/ui/inventory/edit_inventory.php");
+}elseif($page=="inventories"){
+	$found=include("views/pages/ui/inventory/manage_inventory.php");
+}elseif($page=="details-inventory"){
+	$found=include("views/pages/ui/inventory/details_inventory.php");
+}elseif($page=="view-inventory"){
+	$found=include("views/pages/ui/inventory/view_inventory.php");
+}
+?>

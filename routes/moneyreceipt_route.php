@@ -1,0 +1,13 @@
+<?php
+if($page=="create-moneyreceipt"){
+	$found=include("views/pages/ui/moneyreceipt/create_moneyreceipt.php");
+}elseif($page=="edit-moneyreceipt"){
+	$found=include("views/pages/ui/moneyreceipt/edit_moneyreceipt.php");
+}elseif($page=="money_receipts"){
+	$found=include("views/pages/ui/moneyreceipt/manage_moneyreceipt.php");
+}elseif($page=="details-moneyreceipt"){
+	$found=include("views/pages/ui/moneyreceipt/details_moneyreceipt.php");
+}elseif($page=="view-moneyreceipt"){
+	$found=include("views/pages/ui/moneyreceipt/view_moneyreceipt.php");
+}
+?>
